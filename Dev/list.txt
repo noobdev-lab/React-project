@@ -1,0 +1,25 @@
+     //find . -type d | nl > list.txt
+
+     1	.
+     2	./.git
+     3	./.git/objects
+     4	./.git/objects/pack
+     5	./.git/objects/info
+     6	./.git/info
+     7	./.git/hooks
+     8	./.git/refs
+     9	./.git/refs/heads
+    10	./.git/refs/tags
+    11	./Front-end
+    12	./Front-end/public
+    13	./Front-end/public/assets
+    14	./Front-end/public/assets/images
+    15	./Front-end/public/assets/logos
+    16	./Front-end/public/assets/sounds
+    17	./Front-end/public/assets/videos
+    18	./Front-end/src
+    19	./Front-end/src/style
+    20	./Front-end/src/Components
+    21	./Front-end/src/Layouts
+    22	./Front-end/src/Pages
+    23	./Back-end
