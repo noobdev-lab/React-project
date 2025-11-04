@@ -1,2 +1,15 @@
 # React-project
 Learning
+
+## Tasks
+- Git init ✅
+- Create the base structure of the project ✅
+- Add git ignore Commit and push
+- Install Vite.js
+- Install all the dependencies required for the project (sass, react, auto-prefixer)
+- Set up the HTML root and the React app and main
+- Create Sass folders + sass trapilation
+- Create necessary Sass variables and mixins
+- Create a _Reset.sass
+- Create a Structural documentation.txt
+
