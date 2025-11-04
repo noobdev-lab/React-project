@@ -1,22 +1,24 @@
 # Dev documentation
+
 ![cover](./COVER)
 Single personal project for learning to set up a [React.js](https://react.dev/learn/installation#build-a-react-app-from-scratch) project with [Vite.js](https://vite.dev/guide/#manual-installation)
 
 ## Steps
+
 1. Create the base of the project
- ```
-    mkdir -p Project/{dev, app/ {front-end, back-end, README.md}}
- ```
+
+    ```shell
+        mkdir -p Project/{dev, app/ {front-end, back-end, README.md}}
+    ```
 
 2. Install **Vite** inside *front-end* directory
-```
-    cd ./front-end
-    npm create vite@latest .
 
-    //choose React
-```
+    ```shell
+        cd ./front-end
+        npm create vite@latest .
 
-<br /> 
+        //choose React
+    ```
 
 ## Techs
 
@@ -25,22 +27,17 @@ Single personal project for learning to set up a [React.js](https://react.dev/le
 |For :||Performance|Content|Style|
 |Does :||Bundle modules|Dynamic app|Complexe Design system|
 
-<details>
-    <summary>Advantage of those tools</summary>
-    <ul>
-        <li>Simple</li>
-        <li>Fast</li>
-        <li>Light weight</li>
-        <li>Organised</li>
-        <li>Maintainible</li>
-        <li>Flexible</li>
-        <li>Familiar</li>
-    </ul>
-</details>
-
-<br />
+*Advantage of those tools*
+    - Simple
+    - Fast
+    - Light weight
+    - Organised
+    - Maintainible
+    - Flexible
+    - Familiar
 
 ## Tasks
+
 - Git init ✅
 - Create the base structure of the project ✅
 - Add git ignore Commit and push ✅
@@ -52,10 +49,9 @@ Single personal project for learning to set up a [React.js](https://react.dev/le
 - Create a _Reset.sass
 - Create a Structural documentation.txt
 
-
-
 ## Usefull commands
-```
+
+```shell
     ls -R
     // Lists all files and directories
     
