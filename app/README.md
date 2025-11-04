@@ -16,7 +16,7 @@ Single personal project for learning to set up a [React.js](https://react.dev/le
     //choose React
 ```
 
-<br /> 
+<br />
 
 ## Techs
 
