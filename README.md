@@ -1,6 +1,6 @@
 # Dev documentation
 
-![cover](./readme-cover.png)
+![README cover](./readme-cover.jpeg)
 Single personal project for learning to set up a [React.js](https://react.dev/learn/installation#build-a-react-app-from-scratch) project with [Vite.js](https://vite.dev/guide/#manual-installation)
 
 ## Steps
