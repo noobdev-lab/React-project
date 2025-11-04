@@ -1,6 +1,6 @@
 # Dev documentation
 
-![README cover](./readme-cover.jpeg)
+![README cover](./app/front-end/public/readme-cover.jpeg)
 Single personal project for learning to set up a [React.js](https://react.dev/learn/installation#build-a-react-app-from-scratch) project with [Vite.js](https://vite.dev/guide/#manual-installation)
 
 ## Steps
@@ -8,16 +8,14 @@ Single personal project for learning to set up a [React.js](https://react.dev/le
 1. Create the base of the project
 
     ```shell
-        mkdir -p Project/{dev, app/ {front-end, back-end, README.md}}
+        mkdir -p Project/{README.md, app/{front-end, back-end, dev}}
     ```
 
 2. Install **Vite** inside *front-end* directory
 
     ```shell
-        cd ./front-end
+        cd .app/front-end
         npm create vite@latest .
-
-        //choose React
     ```
 
 ## Techs
@@ -41,13 +39,29 @@ Single personal project for learning to set up a [React.js](https://react.dev/le
 - Git init ✅
 - Create the base structure of the project ✅
 - Add git ignore Commit and push ✅
-- Install Vite.js
-- Install all the dependencies required for the project (sass, react, auto-prefixer)
+- Install Vite.js ✅
+- Install all the dependencies required for the project (sass, react, auto-prefixer) 
 - Set up the HTML root and the React app and main
 - Create Sass folders + sass trapilation
 - Create necessary Sass variables and mixins
 - Create a _Reset.sass
 - Create a Structural documentation.txt
+
+## Vite CLI
+
+`npm run dev`
+
+|Server options||
+|:-|:-|
+|`npm run dev`| run the server locally|
+|r| restart server|
+|u| show localhost link|
+|o| open the browser|
+|c| clear server's console|
+|q| quit the server|
+|`npm run build`| builds the server for prod|
+|`npm run preview`| simulate the server for prod|
+
 
 ## Usefull commands
 
