@@ -16,7 +16,15 @@ Single personal project for learning to set up a [React.js](https://react.dev/le
     ```shell
         cd .app/front-end
         npm create vite@latest .
+
+        // choose 'React' 
+        // choose 'Js + React Compiler'
+        // choose 'no' to rolldown
+        // choose 'yes' to install an run
+        // Now vite+react is configured
     ```
+
+3.  
 
 ## Techs
 
