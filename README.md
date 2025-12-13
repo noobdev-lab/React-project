@@ -21,10 +21,10 @@ Single personal project for learning to set up a [React.js](https://react.dev/le
         // choose 'Js + React Compiler'
         // choose 'no' to rolldown
         // choose 'yes' to install an run
-        // Now vite+react is configured
+        // Now Vite + React is configured
     ```
 
-3.  
+3. Install sass
 
 ## Techs
 
@@ -33,14 +33,17 @@ Single personal project for learning to set up a [React.js](https://react.dev/le
 |For :||Performance|Content|Style|
 |Does :||Bundle modules|Dynamic app|Complexe Design system|
 
-*Advantage of those tools*
-    - Simple
-    - Fast
-    - Light weight
-    - Organised
-    - Maintainible
-    - Flexible
-    - Familiar
+### Advantage of using those tools
+
+- Simple
+- Fast
+- Light weight
+- Organised
+- Maintainible
+- Flexible
+- Compatibility
+- Familiar
+- Modern
 
 ## Tasks
 
@@ -48,7 +51,7 @@ Single personal project for learning to set up a [React.js](https://react.dev/le
 - Create the base structure of the project ✅
 - Add git ignore Commit and push ✅
 - Install Vite.js ✅
-- Install all the dependencies required for the project (sass, react, auto-prefixer) 
+- Install all the dependencies required for the project (sass, react, auto-prefixer)
 - Set up the HTML root and the React app and main
 - Create Sass folders + sass trapilation
 - Create necessary Sass variables and mixins
@@ -70,7 +73,6 @@ Single personal project for learning to set up a [React.js](https://react.dev/le
 |`npm run build`| builds the server for prod|
 |`npm run preview`| simulate the server for prod|
 
-
 ## Usefull commands
 
 ```shell
@@ -79,4 +81,20 @@ Single personal project for learning to set up a [React.js](https://react.dev/le
     
     find .
     // Same + hidden files
+
+    nano ~/.zshrc
+    // Write a global script
+```
+
+## Custom scripts
+
+```bash
+    create_component $1
+    // Create component folder + files
+    // name/{Name.jsx, Name.sass, index.js}
+```
+
+```bash
+    source ~/.zshrc
+    // access to custom scripts from local
 ```
